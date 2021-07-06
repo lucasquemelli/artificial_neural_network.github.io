@@ -7,7 +7,7 @@ A seguir, o código no RStudio para a inserção dos dados, para a limpeza de ou
 
 Foram utilizados dois conjuntos. Um conjunto com uma limpeza mais rígida de dados, resultando em 42 observações. Outro conjunto com uma limpeza de dados menos rígida, resultando em 238 observações. 
 
-# Código no RStudio para o conjunto de 42 observações
+# Conjunto de 42 observações
 
 ![image](https://user-images.githubusercontent.com/81119854/124601585-63e19980-de3e-11eb-92a8-e6793897e6b2.png)
 ![image](https://user-images.githubusercontent.com/81119854/124601748-94293800-de3e-11eb-8941-7af55db31a3a.png)
@@ -16,8 +16,15 @@ Foram utilizados dois conjuntos. Um conjunto com uma limpeza mais rígida de dad
 
 A seletividade foi definida pela divisão da variável de produto de anidrido pela variável de vazão de vapor residual. O código acima é similar para o conjunto de 238 observações.
 
-Com os dados do algoritmo acima, foi possível construir a figura abaixo:
+Com os dados do algoritmo acima, foi possível construir as figuras abaixo:
 
 ![image](https://user-images.githubusercontent.com/81119854/124603541-6644f300-de40-11eb-8473-3262206fb7db.png)
 ![image](https://user-images.githubusercontent.com/81119854/124603615-7eb50d80-de40-11eb-858a-3c2fb3101e7e.png)
+
+# Conjunto de 238 observações
+
+O procedimento para análise do conjunto de 238 observações foi similar ao procedimento de análise para o conjunto de 42 observações. Com os códigos no RStudio, foi possível construir as figuras abaixo:
+
+![image](https://user-images.githubusercontent.com/81119854/124605192-0a7b6980-de42-11eb-9471-3257d610705a.png)
+![image](https://user-images.githubusercontent.com/81119854/124605252-18c98580-de42-11eb-8ef5-99c39ff4be71.png)
 
