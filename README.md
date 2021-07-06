@@ -11,4 +11,6 @@ Foram utilizados dois conjuntos. Um conjunto com uma limpeza mais rígida de dad
 
 ![image](https://user-images.githubusercontent.com/81119854/124601585-63e19980-de3e-11eb-92a8-e6793897e6b2.png)
 ![image](https://user-images.githubusercontent.com/81119854/124601748-94293800-de3e-11eb-8941-7af55db31a3a.png)
+![image](https://user-images.githubusercontent.com/81119854/124602025-d488b600-de3e-11eb-9528-4964c3ff34b2.png)
+![image](https://user-images.githubusercontent.com/81119854/124602111-e79b8600-de3e-11eb-952a-e3a027dd1496.png)
 
