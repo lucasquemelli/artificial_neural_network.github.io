@@ -56,4 +56,7 @@ Ambas as redes (de 5 e de 3 neurônios na camada oculta) foram construídas a pa
 
 ![image](https://user-images.githubusercontent.com/81119854/124629960-52a58680-de58-11eb-98af-af375671027f.png)
 
+Na figura acima, são vistas 28 variáveis na camada de entrada (input layer), 1 camada oculta (com 3 neurônios) e 1 variável na camada de saída (seletividade, output layer). A rede neural está completamente conectada, isto é, todos os neurônios da camada oculta estão conectados aos neurônios da camada anterior (input layer) e da camada seguinte (output layer). 
+
+Os números identificados com a cor preta são os pesos (w), e os de cor azul são os bias (b) – estes últimos são similares a uma constante em uma equação de regressão. O peso aumenta a inclinação da função de ativação. Isso significa que o peso decide com que rapidez a função de ativação será acionada, enquanto o bias é usado para atrasar o "disparo" da função de ativação. A representação matemática para a figura acima pode ser entendida como:
 
