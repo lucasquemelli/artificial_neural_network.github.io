@@ -81,3 +81,6 @@ Como esperado, o subconjunto de treinamento (R² = 0,9988 e MSE = 0,01) apresent
 
 Em redes neurais artificiais, quanto mais pontos - e de melhor qualidade (sem ou com poucos erros) - melhor a previsão do modelo. Por esse motivo, redes neurais são ótimas escolhas para conjuntos 'Big Data'.
 
+# Considerações/Observações 
+
+As redes neurais apresentam como vantagem a resistência aos ruídos, a facilidade de utilização, a alta velocidade de processamento de dados (em alguns casos) e a alta eficiência em predição dos dados dentro do domínio utilizado. Contudo, as redes são menos interpretativas do que outros modelos e podem exigir longo período de treinamento.
