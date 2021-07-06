@@ -52,7 +52,7 @@ Para a rede neural da figura acima, foram utilizados os dados do subconjunto de 
 
 A informação “form” dentro de formula, significa qual a função objetivo, ou seja, a saída da rede – pode ser vista no primeiro parágrafo da figura. Na última linha do código, encontra-se o comando para geração do gráfico das redes neurais. 
 
-Ambas as redes (de 5 e de 3 neurônios na camada oculta) foram construídas a partir do código acima. As redes neurais podem ser vistas abaixo.
+Ambas as redes (de 5 e de 3 neurônios na camada oculta) foram construídas a partir do código acima. A rede com 3 neurônios pode ser vista abaixo.
 
 ![image](https://user-images.githubusercontent.com/81119854/124629960-52a58680-de58-11eb-98af-af375671027f.png)
 
