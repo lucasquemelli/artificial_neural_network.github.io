@@ -5,9 +5,9 @@ Inicialmente, foi escolhida 1 camada oculta para fazer uma rede de 3 camadas tot
 
 A seguir, o código no RStudio para a inserção dos dados, para a limpeza de outliers Mahalanobis, para a partição dos dados em conjunto treinamento e em conjunto teste e para a definição da coluna de seletividade pelo aumento do produto (FC0619) e minimização do resíduo de vapor (FI0219).
 
-Foram utilizados dois conjuntos. Um conjunto com uma limpeza mais rígida de dados, resultando em 42 observações. Outro conjunto com uma limpeza de dados menos rígida, resultando em 238 observações. 
+Foram utilizados dois conjuntos. Um conjunto com uma limpeza mais rígida de dados, resultando em 41 observações. Outro conjunto com uma limpeza de dados menos rígida, resultando em 238 observações. 
 
-# Teste com o conjunto de 42 observações
+# Teste com o conjunto de 41 observações
 
 ![image](https://user-images.githubusercontent.com/81119854/124601585-63e19980-de3e-11eb-92a8-e6793897e6b2.png)
 ![image](https://user-images.githubusercontent.com/81119854/124601748-94293800-de3e-11eb-8941-7af55db31a3a.png)
@@ -28,3 +28,18 @@ O procedimento para análise do conjunto de 238 observações foi similar ao pro
 ![image](https://user-images.githubusercontent.com/81119854/124605192-0a7b6980-de42-11eb-9471-3257d610705a.png)
 ![image](https://user-images.githubusercontent.com/81119854/124605252-18c98580-de42-11eb-8ef5-99c39ff4be71.png)
 
+# Análise dos testes com os dois conjuntos
+
+Foram testadas redes com até 25 neurônios na camada oculta. Contudo, foi possível observar que um número de neurônios pequeno foi suficiente para atingir um alto valor de R² e baixo valor do MSE. 
+
+Observa-se nas figuras do conjunto de 41 observações que o número de 5 neurônios realizou uma boa otimização. Além desse número de neurônios, os valores de R² e MSE se mantiveram razoavelmente constantes (com pouca oscilação). Para o conjunto de 238 observações, esse número foi o de 3 neurônios.
+
+É interessante utilizar redes com o menor número de neurônios porque uma sistema simplificado e eficiente pode gerar resultados em períodos de tempo menores.
+
+# Treinamento da rede
+
+Definido o número de neurônios na camada oculta para cada conjunto de dados, foi possível analisar os dois conjuntos. Foram criados dois subconjuntos de dados: treinamento (ou treino, 80 % de cada conjunto) e teste (20 % de cada conjunto). 
+
+Com esses subconjuntos, foi possível treinar o modelo matemático, com objetivo de minimizar o somatório médio do erro quadrático e maximizar o coeficiente de determinação para a previsão da seletividade. 
+
+#
