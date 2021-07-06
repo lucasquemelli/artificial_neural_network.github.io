@@ -65,3 +65,15 @@ Os números identificados com a cor preta são os pesos (w), e os de cor azul s�
 Para as variáveis de entrada, na primeira camada, cada bias corresponde à entrada (input) de um neurônio específico, o que significa que a equação acima varia para cada valor de bias – que liga a um neurônio diferente. 
 
 Para o valor de saída dos neurônios da camada oculta e da função objetivo (seletividade, neste caso), é inclusa no cálculo a função de ativação. Entretanto, todos esses valores já são calculados e podem ser encontrados inserindo names(nome da rede neural) - o que neste caso é: names(n).
+
+![image](https://user-images.githubusercontent.com/81119854/124634818-24767580-de5d-11eb-882c-2c1363957b73.png)
+
+# Validação do modelo preditivo
+
+Após a criação da rede neural, avalia-se estatisticamente a sua capacidade de previsão. Para a avaliação, foram utilizados gráficos de paridade, coeficiente de determinação (R²) e somatório médio do erro quadrático (MSE) para os dois conjuntos estudados.
+
+![image](https://user-images.githubusercontent.com/81119854/124635383-bbdbc880-de5d-11eb-894d-e198b2717fe1.png)
+![image](https://user-images.githubusercontent.com/81119854/124635426-cd24d500-de5d-11eb-8100-19567a7ab02e.png)
+
+
+
