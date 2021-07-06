@@ -60,3 +60,8 @@ Na figura acima, são vistas 28 variáveis na camada de entrada (input layer), 1
 
 Os números identificados com a cor preta são os pesos (w), e os de cor azul são os bias (b) – estes últimos são similares a uma constante em uma equação de regressão. O peso aumenta a inclinação da função de ativação. Isso significa que o peso decide com que rapidez a função de ativação será acionada, enquanto o bias é usado para atrasar o "disparo" da função de ativação. A representação matemática para a figura acima pode ser entendida como:
 
+![image](https://user-images.githubusercontent.com/81119854/124634275-897d9b80-de5c-11eb-85fc-97caa68461b2.png)
+
+Para as variáveis de entrada, na primeira camada, cada bias corresponde à entrada (input) de um neurônio específico, o que significa que a equação acima varia para cada valor de bias – que liga a um neurônio diferente. 
+
+Para o valor de saída dos neurônios da camada oculta e da função objetivo (seletividade, neste caso), é inclusa no cálculo a função de ativação. Entretanto, todos esses valores já são calculados e podem ser encontrados inserindo names(nome da rede neural) - o que neste caso é: names(n).
