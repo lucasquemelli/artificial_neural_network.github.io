@@ -42,4 +42,18 @@ Definido o número de neurônios na camada oculta para cada conjunto de dados, f
 
 Com esses subconjuntos, foi possível treinar o modelo matemático, com objetivo de minimizar o somatório médio do erro quadrático e maximizar o coeficiente de determinação para a previsão da seletividade. 
 
-#
+# Rede definida
+
+Pode ser visto na figura abaixo o código no R para gerar a rede neural com 1 camada oculta e 5 neurônios (41 observações) nessa camada. Para a rede com 3 neurônios na camada oculta (238 observações), foi necessário apenas mudar o número de neurônios na opção “hidden”.
+
+![image](https://user-images.githubusercontent.com/81119854/124628770-2e957580-de57-11eb-9b28-628b5199bce2.png)
+
+Para a rede neural da figura acima, foram utilizados os dados do subconjunto de treinamento, com 5 neurônios na camada oculta, soma do erro quadrático como fator de erro, regressão e impressão dos resultados na tela todas as vezes durante os cálculos. 
+
+A informação “form” dentro de formula, significa qual a função objetivo, ou seja, a saída da rede – pode ser vista no primeiro parágrafo da figura. Na última linha do código, encontra-se o comando para geração do gráfico das redes neurais. 
+
+Ambas as redes (de 5 e de 3 neurônios na camada oculta) foram construídas a partir do código acima. As redes neurais podem ser vistas abaixo.
+
+![image](https://user-images.githubusercontent.com/81119854/124629960-52a58680-de58-11eb-98af-af375671027f.png)
+
+
