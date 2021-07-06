@@ -75,5 +75,9 @@ Após a criação da rede neural, avalia-se estatisticamente a sua capacidade de
 ![image](https://user-images.githubusercontent.com/81119854/124635383-bbdbc880-de5d-11eb-894d-e198b2717fe1.png)
 ![image](https://user-images.githubusercontent.com/81119854/124635426-cd24d500-de5d-11eb-8100-19567a7ab02e.png)
 
+Na figura acima, estão os gráficos de paridade para o conjunto de 238 observações, com margem de erro de ± 10 %, que correlaciona as seletividades observada e calculada. Ambos os subconjuntos apresentaram ótimo ajuste, baseado no coeficiente de determinação e no somatório do erro quadrático médio. 
 
+Como esperado, o subconjunto de treinamento (R² = 0,9988 e MSE = 0,01) apresentou melhor ajuste do que o subconjunto de teste na Figura 8 (d) (R² = 0,9938 e MSE = 0,99). Mas, ainda assim, o subconjunto de teste apresentou ótimo resultado. A diferença, possivelmente, deve-se à maior quantidade de pontos do conjunto de treinamento.
+
+Em redes neurais artificiais, quanto mais pontos - e de melhor qualidade (sem ou com poucos erros) - melhor a previsão do modelo. Por esse motivo, redes neurais são ótimas escolhas para conjuntos 'Big Data'.
 
