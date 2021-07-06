@@ -34,7 +34,7 @@ Foram testadas redes com até 25 neurônios na camada oculta. Contudo, foi poss�
 
 Observa-se nas figuras do conjunto de 41 observações que o número de 5 neurônios realizou uma boa otimização. Além desse número de neurônios, os valores de R² e MSE se mantiveram razoavelmente constantes (com pouca oscilação). Para o conjunto de 238 observações, esse número foi o de 3 neurônios.
 
-É interessante utilizar redes com o menor número de neurônios porque uma sistema simplificado e eficiente pode gerar resultados em períodos de tempo menores.
+Para prosseguimento da análise, foi escolhido o conjunto de 238 observações devido ao valor resultante ótimo de 3 neurônios para a camada oculta e devido ao maior número de pontos. É interessante utilizar redes com o menor número de neurônios porque uma sistema simplificado e eficiente pode gerar resultados em períodos de tempo menores.
 
 # Treinamento da rede
 
