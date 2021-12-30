@@ -1,4 +1,7 @@
 # artificial_neural_network.github.io
+
+<code><img width="100%" src="https://github.com/lucasquemelli/artificial_neural_network.github.io/blob/main/img-three.jpg"></code>
+
 Este é um projeto que utiliza redes neurais artificiais para a previsão da seletividade de um produto final de uma planta química industrial.
 
 Inicialmente, foi escolhida 1 camada oculta para fazer uma rede de 3 camadas totais (camada de entrada, camada oculta e camada de saída). Com essa configuração, foi realizado um teste para determinar o número de neurônios que promove o melhor desempenho na rede, tendo como objetivo a maximização do coeficiente de determinação (R²) e a minimização do somatório médio do erro quadrático (MSE).
